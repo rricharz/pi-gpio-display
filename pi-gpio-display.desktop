@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Exec=sudo /home/pi/bin/pi-gpio-display
+Name=gpio-display
+GenericName=display Raspberry Pi gpio connector
+Comment=display status pi-top hub connector pins
+Encoding=UTF-8
+Terminal=false
+Type=Application
+Categories=Accessories;
+X-KeepTerminal=true
+Name[en_US]=pi-gpio-display
+Icon=/home/pi/bin/gpio-icon.png
+Path=/home/pi/bin
+Comment[en_US]=display Raspberry Pi gpio connector

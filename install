@@ -1,0 +1,14 @@
+# check if the install script is run by the 'pi' user
+if [ `whoami` != pi ]; then
+        echo "Please run as 'pi' user"
+        exit 1
+fi
+
+# make /home/pi/bin directory, if it does not exist
+mkdir -p /home/pi/bin
+
+# copy files
+cp application /home/pi/bin/pi-gpio-display
+cp gpio-icon.png /home/pi/bin
+cp pi-gpio-display.desktop /home/pi/Desktop
+
