@@ -1,4 +1,4 @@
-# pi-top-gpio-display
+# pi-gpio-display
 
 Displays the logic value of the general purpose gpio pins on the 
 Raspberry Pi gpio connector.
