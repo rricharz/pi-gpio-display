@@ -3,6 +3,13 @@
 Displays the logic value of the general purpose gpio pins on the 
 Raspberry Pi gpio connector.
 
+![Alt text](screenshot.jpg?raw=true "pi-gpio-display")
+
+There are 3 versions of this program
+- pi-gpio-display displays the pins of the 40 pin connector of the Raspberry Pi https://github.com/rricharz/pi-gpio-display
+- pi-top-gpio-display displays the pins of the pi-top hub connector https://github.com/rricharz/pi-top-gpio-display
+- pi-top-proto-display displays the pins of the pi-topPROTO board https://github.com/rricharz/pi-top-proto-display
+
 **You must be user pi to install and run this program**
 
 To install:
