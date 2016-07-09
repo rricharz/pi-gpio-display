@@ -38,40 +38,40 @@ void application_init()
 	pin_c( 3, "BCM 2 (SDA)",	 3, -1);
 	pin_c( 4, "5V POWER",		 4, -1);
 	pin_c( 5, "BCM 3 (SCL)",	 5, -1);
-	pin_c( 6, "Ground",		     6, -1);
+	pin_c( 6, "GROUND",		     6, -1);
 	pin_c( 7, "BCM 4 (GPCLK0)",	 7,  7);
 	pin_c( 8, "BCM 14 (TDX)",	 8, -1);
-	pin_c( 9, "Ground",			 9, -1);
+	pin_c( 9, "GROUND",			 9, -1);
 	pin_c(10, "BCM 15 (RXD)", 	10, -1);
 	pin_c(11, "BCM 17",			11,  0);
 	pin_c(12, "BCM 18",			12,  1);
 	pin_c(13, "BCM 27",	        13,  2);
-	pin_c(14, "Ground",  		14, -1);
+	pin_c(14, "GROUND",  		14, -1);
 	pin_c(15, "BCM 22",			15,  3);
 	pin_c(16, "BCM 23",			16,  4);
 	pin_c(17, "3.3V POWER",		17, -1);
 	pin_c(18, "BCM 24"	,		18,  5);
 	pin_c(19, "BCM 10 (MOSI)",	19, -1);
-	pin_c(20, "Ground",			20, -1);
+	pin_c(20, "GROUND",			20, -1);
 	pin_c(21, "BCM 9 (MISO)",	21, -1);
 	pin_c(22, "BCM 25",			22,  6);
 	pin_c(23, "BM 11 (SCLK)",	23, -1);
 	pin_c(24, "BCM 8 (CE0)",	24, -1);
-	pin_c(25, "Ground",			25, -1);
-	pin_c(26, "BCM 7 CE1)",		26, -1);
+	pin_c(25, "GOUNd",			25, -1);
+	pin_c(26, "BCM 7 (CE1)",	26, -1);
 	pin_c(27, "BCM 0 (ID_SD)",	27, -1);
 	pin_c(28, "BCM 1 (ID_SC)",	28, -1);
 	pin_c(29, "BCM 5",			29, 21);
-	pin_c(30, "Ground",			30, -1);
+	pin_c(30, "GROUND",			30, -1);
 	pin_c(31, "BCM 6",			31, 22);
 	pin_c(32, "BCM 12 (PWM0)",	32, 26);
 	pin_c(33, "BCM 13 (PWM1)",	33, 23);
-	pin_c(34, "Ground",			34, -1);
+	pin_c(34, "GROUND",			34, -1);
 	pin_c(35, "BCM 19 (MISO)",	35, 24);
 	pin_c(36, "BCM 16",			36, 27);
 	pin_c(37, "BCM 26",			37, 25);
 	pin_c(38, "BCM 20 (MOSI)",	38, 28);
-	pin_c(39, "Ground",			39, -1);
+	pin_c(39, "GROUND",			39, -1);
 	pin_c(40, "BM 21 (SCLK)",	40, 29);	
 }
 
@@ -126,7 +126,7 @@ void application_draw(cairo_t *cr, int width, int height)
 #define CIRCLE_RADIUS	6
 
 {	
-	int x, y, pin, xNum, xLabel, xWiringPi;
+	int i,x, y, pin, xNum, xLabel, xWiringPi;
 	char str[16];
 	
 	// printf("application_draw called\n");
