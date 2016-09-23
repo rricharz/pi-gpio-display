@@ -67,6 +67,4 @@ Also, **be carefull hooking up anything to the gpio connector**. You might destr
 your hardware if you make a mistake. **Do not hook up any pin to 5V**.
 
 
-Please help to improve this program by tweeting to
-**http://twitter.com/r_richarz** or opening an issue on this repository
-if you have any problem or suggestion.
+Please open an issue on this repository if you have any problem with the program.
