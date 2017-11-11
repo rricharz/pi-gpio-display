@@ -57,7 +57,7 @@ void application_init()
 	pin_c(22, "BCM 25",			22,  6);
 	pin_c(23, "BM 11 (SCLK)",	23, -1);
 	pin_c(24, "BCM 8 (CE0)",	24, -1);
-	pin_c(25, "GOUNd",			25, -1);
+	pin_c(25, "GROUND",			25, -1);
 	pin_c(26, "BCM 7 (CE1)",	26, -1);
 	pin_c(27, "BCM 0 (ID_SD)",	27, -1);
 	pin_c(28, "BCM 1 (ID_SC)",	28, -1);
