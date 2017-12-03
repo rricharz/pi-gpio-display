@@ -14,7 +14,7 @@
  *   a peridicaly called function
  *   a function called if the mouse is clicked 
  * 
- * Copyright 2016  rricharz
+ * Copyright 2016  rricharz<rricharz77@gmail.com>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
